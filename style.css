@@ -1,0 +1,173 @@
+
+
+h1 {
+  color: royalblue;
+  text-align: center;
+  box-shadow: 12rem;
+}
+
+
+
+h2 {
+  margin-left: 2.5cm;
+}
+
+body {
+  margin: 2cm;
+  font-size: 1rem;
+  display: block;
+
+}
+
+.text {
+  margin-top: 1cm;
+  margin-right: 6cm;
+  margin-left: 2.5cm;
+  margin-bottom: 1cm;
+  text-align: center;
+}
+
+.card {
+  margin: 2px;
+  float: left;
+  width: 40px;
+  height: auto;
+  align-items: center;
+}
+
+.card-body {
+  align-items: center;
+}
+
+.card-group {
+  margin-left: 2cm;
+  margin-right: 6cm;
+  margin-top: 1px;
+  margin-bottom: 2cm;
+}
+
+.count-me {
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cantitate {
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input {
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-text3 {
+  margin-bottom: auto;
+}
+
+img.card-img-top {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+p {
+  text-align: center;
+  /*padding: 2rem;*/
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#cos {
+  color: #27344c;
+  position: absolute;
+  top: 20px;
+  right: 1px;
+  width: 150px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 20px;
+  height: 1000px;
+}
+
+#arata {
+  width: 3%;
+  position: relative;
+  right: 0;
+  width: 192px;
+  margin-left: -3px;
+  top: -1050px;
+  margin-left: 87%;
+  cursor: pointer;
+  background-color: #2B3A55;
+  color: white;
+}
+
+#shopCart {
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 1px;
+  margin-bottom: 3cm;
+  color: #27344c;
+}
+
+#jquery {
+  color: #27344c;
+  position: absolute;
+  top: 150px;
+  right: 5px;
+  width: 190px;
+  text-align: right;
+  font-weight: lighter;
+  font-size: 10px;
+  margin-top: 5.5cm;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 14.3px;
+  color: #27344c;
+
+}
+
+#totalprod {
+  font-weight: bold;
+  color: #27344c;
+
+}
+
+#valTotaltxt {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.vertical-line {
+  border-left: 3px solid #E8C4C4;
+  height: 1000px;
+  position: absolute;
+  right: 0;
+  width: 200px;
+  top: 0;
+  background-color: #E8C4C4;
+}
+
+.btn {
+  background-color: #E8C4C4;
+  border-color: #27344c;
+  color: #212a3a;
+  text-align: center;
+  align-items: center;
+  margin-top: 8px;
+}

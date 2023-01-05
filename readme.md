@@ -1,0 +1,1 @@
+Acesta este proiectul meu realizat la disciplina Comert Electronic.

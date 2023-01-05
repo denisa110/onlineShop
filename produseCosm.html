@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazin online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <br>
+    <h1><strong> Magazin online </strong> </h1>
+
+
+    <div class="text"> Secretul Sephora consta in faptul ca este
+        „Destinatia suprema a frumusetii”, oferind o selectie de produse pe cat de incredibile,
+        pe atat de moderne, reflectand, de asemenea, un gust al libertatii, un sentiment de placere si
+        dorinta de a oferi frumusete clientilor sai. In plus, poti accesa oricand in magazinele Sephora,
+        o intreaga varietate de servicii, care sa te conecteaze cu lumea produselor cosmetice: servicii de machiaj,
+        sfaturi personalizate, ambalaje de cadou speciale sau te puteti bucura de consilierea personalizata privind
+        ingrijirea pielii si corpului. La Sephora, vei descoperi un nou mod de a trai frumusetea! Multiple si variate,
+        creative si rafinate, realizate cu standardele de calitate autentice, produsele comercializate au fost create
+        pentru ca frumusetea sa fie o placere accesibila tuturor clientilor nostri: mereu simpla, jucausa si in pas cu
+        tendintele!</div>
+
+    <h2> Produse </h2>
+    <br>
+    <br>
+
+    <div class="card-group">
+
+        <div class="card">
+            <img class="card-img-top" src="https://cdn.notinoimg.com/images/gallery/spage/Hydratace_opr_20211203_09.jpg"
+                alt="Produse cosmetice Vichy">
+            <div class="card-body">
+                <h5 class="card-title"> Produse cosmetice Vichy </h5>
+                <p class="card-text"> Datorită compoziției sale unice,
+                    întărește funcția barierei cutanate și, astfel, combate agresorii, cum ar fi poluarea, stresul sau
+                    oboseala. Rezultatul este o piele perfect hidratată, tonifiată și luminoasă, care, pur și simplu,
+                    strălucește de sănătate.</p>
+            </div>
+            <div class="price">
+                <text> Pret: </text>
+                <div class="count-me" name="price"> <text> 170.00 RON</text>
+                </div>
+            </div>
+            <div class="cantitate">
+                <text> Cantitate </text>
+                <input class="input" value="0" id="170.00" size="1" />
+            </div>
+            <button onclick="cart()" type="button" class="btn">Adauga in cos</button>
+
+        </div>
+
+        <div class="card">
+            <img class="card-img-top"
+                src="https://cdn.notinoimg.com/detail_thumb/vichy/3337871310356-o/vichy-nutrilogie-crema-intensiva-pentru-piele-foarte-uscata___21.jpg"
+                alt="Vichy Nutrilogie">
+            <div class="card-body">
+                <h5 class="card-title"> Vichy Nutrilogie</h5>
+                <p class="card-text"> Formula cu sfingolipide
+                    reface pelicula hidrolipidică, iar tenul redevine moale, suplu și hidratat. Pentru un ten suplu și
+                    catifelat, fără senzația de tensiune. </p>
+            </div>
+            <div class="price">
+                <text> Pret: </text>
+                <div class="count-me" name="price"><text> 95.00 RON </text> </div>
+            </div>
+            <div class="cantitate">
+                <text> Cantitate </text>
+                <input class="input" value="0" id="95.00" size="1" />
+            </div>
+            <button onclick="cart()" type="button" class="btn">Adauga in cos</button>
+
+        </div>
+        <div class="card">
+            <img class="card-img-top"
+                src=" https://cdn.notinoimg.com/detail_thumb/vichy/3337875579919_01-o/vichy-neovadiol-rose-platinium-crema-de-zi-hranitoare-si-pentru-stralucire-pentru-ten-matur___7.jpg"
+                alt="Vichy Neovadiol Rose Platinium" <div class="card-body">
+            <h5 class="card-title">Vichy Neovadiol Rose Platinium</h5>
+            <p class="card-text3">Crema de zi cu efect de iluminare și de
+                fortifiere Vichy Neovadiol Rose Platinum menține suplețea tenului matur și îi uniformizează nuanța.
+                Pigmenții minerali roz din formula inovatoare lasă o strălucire subtilă, datorită căreia tenul dvs. va
+                fi ca nou-născut.</p>
+            <div class="price">
+                <text> Pret: </text>
+                <div class="count-me" name="price"><text> 80.50 RON </text> </div>
+            </div>
+            <div class="cantitate">
+                <text> Cantitate </text>
+                <input class="input" value="0" id="80.50" size="1" />
+            </div>
+            <button onclick="cart()" type="button" class="btn">Adauga in cos</button>
+        </div>
+    </div>
+
+    <div class="vertical-line"> </div>
+    </div>
+
+    <button id="arata"> Arata cos </button>
+    <div id="cos">
+        <br>
+        <div id="shopCart">
+            <p id="stareCos"> </p>
+            <p id="comanda"> Produse adaugate: </p>
+            <p id="totalDue">Total: 0.00 RON</p>
+            <p id="conditie"> </p>
+        </div>
+
+
+        <div id="jquery">
+            
+            <p> <text id="title"> Produse cosmetice Vichy </text> <br>
+                Cantitate:
+                <button class="changeQty" data-line="1" data-price="170.00" data-append="minus"> - </button>
+                <span id="qty1">0</span>
+                <button class="changeQty" data-line="1" data-price="170.00" data-append="plus"> + </button>
+                <span id="price1">170.00 </span> lei
+                <button class="changeQty" data-line="1" data-price="170.00" data-append="X"> X </button>
+
+            <p id="totalprod">Total produs 1: <span id="total1"> 0</span></p>
+
+            </p>
+            <hr>
+            <br>
+            <p><text id="title"> Vichy Nutrilogie </text><br>
+                Cantitate:
+                <button class="changeQty" data-line="2" data-price="95.00" data-append="minus"> - </button>
+                <span id="qty2">0</span>
+                <button class="changeQty" data-line="2" data-price="95.00" data-append="plus"> + </button>
+                <span id="price2">95.00 </span> lei
+                <button class="changeQty" data-line="2" data-price="95.00" data-append="X"> X </button>
+
+            <p id="totalprod">Total produs 2: <span id="total2"> 0</span></p>
+
+
+            </p>
+            <hr>
+            <br>
+            <p>
+                <text id="title"> Vichy Neovadiol Rose Platinium </text><br>
+                Cantitate:
+                <button class="changeQty" data-line="3" data-price="80.50" data-append="minus"> - </button>
+                <span id="qty3">0</span>
+                <button class="changeQty" data-line="3" data-price="80.50" data-append="plus"> + </button>
+                <span id="price3"> 80.50 </span> lei
+                <button class="changeQty" data-line="3" data-price="80.50" data-append="X"> X </button>
+
+            <p id="totalprod">Total produs 3: <span id="total3"> 0</span></p>
+            <hr>
+
+            </p>
+            <p id="valTotaltxt"> Total: <span id="valTotal"> 0 </span> Lei </p>
+
+        </div>
+
+        
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <!--"https://cdn.notinoimg.com/images/gallery/spage/Hydratace_opr_20211203_09.jpg" alt "Produse cosmetice Vichy"    -->
+</body>
+
+</html>
