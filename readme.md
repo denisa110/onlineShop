@@ -1,1 +1,1 @@
-Acesta este proiectul meu realizat la disciplina Comert Electronic.
+This is my project made in the Electronic Commerce discipline.
